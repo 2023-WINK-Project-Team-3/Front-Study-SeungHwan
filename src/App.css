@@ -1,0 +1,36 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+nav {
+  height: 1019px;
+  width: 183px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(66, 66, 66, 1);
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 25px;
+  color: white;
+  transition: 0.3s;
+  margin-bottom: 10px;
+}
+
+nav ul li:hover {
+  color: black;
+  background-color: rgba(217, 217, 217, 1);
+}
